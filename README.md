@@ -1,3 +1,10 @@
+---
+# Basics
+## What is RPL?
+
+## How does RPL work?
+
+---
 # Built-ins
 | Built-in name | Description |
 | :--- | :--- |
@@ -40,3 +47,20 @@
 | `?base64` | Converts a string to base64 format |
 | **Other** ||
 | `?skip` | Shorthand way to skip if the field is empty ( `${FNAME?skip}`  is just like writing `<#if FNAME?isnull><#skip></#if>`) |
+
+---
+# Methods, Directives, and Functions
+
+## Most common
+
+### if else
+Description here
+
+### skip
+Description here
+
+### list
+Description here
+
+### assign
+Description here
