@@ -20,6 +20,13 @@ It can also be used to do a number of things like:
 
 
 ---
+# Table of Contents
+[Built-ins](https://github.com/jessecookedesign/rpl#built-ins)
+[Methods, directives, and functions](https://github.com/jessecookedesign/rpl#methods-directives-and-functions)
+[Responsys errors](https://github.com/jessecookedesign/rpl#responsys-errors)
+
+
+---
 # Built-ins
 | Built-in name | Description |
 | :--- | :--- |
@@ -79,3 +86,6 @@ Description here
 
 ### assign
 Description here
+
+---
+# Responsys errors
