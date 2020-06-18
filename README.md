@@ -72,23 +72,6 @@ It can also be used to do a number of things like:
 | `?skip` | Shorthand way to skip if the field is empty ( `${FNAME?skip}`  is just like writing `<#if FNAME?isnull><#skip></#if>`) |
 
 ---
-# Methods, Directives, and Functions
-
-## Most common
-
-### if else
-Description here
-
-### skip
-Description here
-
-### list
-Description here
-
-### assign
-Description here
-
----
 # Responsys errors
 
 ### "Expected hash"
