@@ -22,6 +22,6 @@ It can also be used to do a number of things like:
 
 ---
 # Table of Contents
-- [Built-ins](https://github.com/jessecookedesign/rpl#built-ins)
+- [Built-ins](https://github.com/jessecookedesign/rpl/blob/master/built-ins.md)
 - [Methods, directives, and functions](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md)
-- [Responsys errors](https://github.com/jessecookedesign/rpl#responsys-errors)
+- [Responsys errors](https://github.com/jessecookedesign/rpl/blob/master/responsys_errors.md)
