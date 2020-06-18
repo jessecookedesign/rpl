@@ -77,7 +77,35 @@ It can also be used to do a number of things like:
 ## Most common
 
 ### if else
-Description here
+#### Syntax:
+```html
+<#if condition>
+    <!-- do something -->
+<#elseif condition>
+    <!-- do something -->
+<#else>
+    <!-- do something -->
+<#/if>
+```
+#### Example:
+```html
+<#if FIRST_NAME?has_content && LAST_NAME?has_content>
+    Hi there, ${FIRST_NAME}, ${LAST_NAME}!
+<#elseif FIRST_NAME?has_content && LAST_NAME?isnull>
+    Hi there, ${FIRST_NAME}!
+<#else>
+    Hi there!
+<#/if>
+```
+
+Notes:
+
+`<#if>` must be closed.
+
+`<#if>` can be used alone with out `<#else>` or `<#elseif>`
+
+`<#else>` and `<#elseif>` do not need to be closed.
+
 
 ### skip
 Description here
