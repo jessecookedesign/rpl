@@ -89,3 +89,7 @@ Description here
 
 ---
 # Responsys errors
+
+### "Expected hash"
+A hash may be referring to data from a `<#data>` tag and `<#field>` tag.
+Check to make sure that you are calling a hash inside the `<#data>` tags. If you close your `</#data>` tag before using the hash, Responsys won't know what to do.
