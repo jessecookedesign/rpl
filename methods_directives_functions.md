@@ -1,10 +1,10 @@
 # Methods, Directives, and Functions
 
 # Table of Contents
-- [if else](https://www.github.com/jessecookedesign/rpl/methods_directives_functions#if-else)
-- [skip](https://www.github.com/jessecookedesign/rpl/methods_directives_functions#skip)
-- [list](https://www.github.com/jessecookedesign/rpl/methods_directives_functions#list)
-- [assign](https://www.github.com/jessecookedesign/rpl/methods_directives_functions#assign)
+- [if else](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#if-else)
+- [skip](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#skip)
+- [list](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#list)
+- [assign](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#assign)
 
 ---
 
