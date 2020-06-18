@@ -108,7 +108,23 @@ Notes:
 
 
 ### skip
-Description here
+#### Syntax:
+```html
+<#skip "message">
+```
+#### Example:
+```html
+<#skip "Customer didn't have rewards">
+```
+
+Notes:
+
+`<#skip>` does not need to be closed.
+
+They are typically placed inside an if-else statement.
+
+They can also be placed in a subject line or preheader to skip an entire campaign (effectively pausing it)
+
 
 ### list
 Description here
