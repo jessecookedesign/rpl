@@ -91,5 +91,32 @@ Description here
 # Responsys errors
 
 ### "Expected hash"
-A hash may be referring to data from a `<#data>` tag and `<#field>` tag.
-Check to make sure that you are calling a hash inside the `<#data>` tags. If you close your `</#data>` tag before using the hash, Responsys won't know what to do.
+A hash may be referring to data from a `<#data>` tag and `<#field>` tag. Check to make sure that you are calling a hash inside the `<#data>` tags. If you close your `</#data>` tag before using the hash, Responsys won't know what to do.
+
+#### Example that throws error:
+```
+<#data STORE_DATA as mystore>
+    <#fields ADDRESS LOCATION_NAME>
+</#data>
+<table>
+    <tr>
+        <td>
+            <p>${mystore.LOCATION_NAME}</p>
+        </td>
+    </tr>
+</table>
+```
+
+#### Example that works:
+```
+<#data STORE_DATA as mystore>
+    <#fields ADDRESS LOCATION_NAME>
+    <table>
+        <tr>
+            <td>
+                <p>${mystore.LOCATION_NAME}</p>
+            </td>
+        </tr>
+    </table>
+</#data>
+```
