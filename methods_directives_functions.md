@@ -66,6 +66,18 @@ Description here
 ---
 
 # assign
-Description here
+#### Syntax:
+```html
+<#assign name="value">
+```
+#### Example:
+```html
+<#assign state="California">
+<h1>Find a place to stay in ${state}</h1>
+```
+
+Notes:
+
+This example shows a string being assigned to a variable but, you can assign many different things such as numbers, booleans, other variables, and data from imported XML.
 
 ---
