@@ -68,16 +68,43 @@ Description here
 # assign
 #### Syntax:
 ```html
-<#assign name="value">
+<!-- String -->
+<#assign name = "value">
+    
+<!-- Number -->
+<#assign name = 10>
+    
+<!-- Math -->
+<#assign name = 1 + 1>
+    
+<!-- Boolean -->
+<#assign name = true>
+    
+<!-- Built-in -->
+<#assign name = .built-in-name>
 ```
 #### Example:
 ```html
-<#assign state="California">
-<h1>Find a place to stay in ${state}</h1>
+<!-- String -->
+<#assign state = "Minnesota">
+<h1>Find a place to stay in ${state}.</h1>
+    
+<!-- Number -->
+<#assign age = 24>
+<h1>The best cars for ${age} year olds!</h1>
+    
+<!-- Math -->
+<#assign age = 24>
+<#assign newAge = age + 10>
+<h1>In ten years, when you're ${newAge}...</h1>
+    
+<!-- Boolean -->
+<#assign member = false>
+<#if member == false>Sign up today!</#if>
+    
+<!-- Built-in -->
+<#assign today = .today>
+<h1>Today's date: ${today}</h1>
 ```
-
-Notes:
-
-This example shows a string being assigned to a variable but, you can assign many different things such as numbers, booleans, other variables, and data from imported XML.
 
 ---
