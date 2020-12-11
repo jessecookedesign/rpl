@@ -25,6 +25,7 @@
 | `?time("HH:MM:SS")` | Convert string to “time” format, specify format as parameter |
 | `?datetime("YYYY-MM-DD HH:MM a")` | Convert string to “date and time” format, specify format as parameter |
 | `?url` | Modifies the string with URL escaping |
+| `?replace("param1", "param2")` | Replace any instance of first parameter with second parameter |
 | **Working with numbers** ||
 | `?round` | Rounds to the nearest whole number |
 | `?floor` | Rounds the number down |
