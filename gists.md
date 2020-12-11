@@ -16,3 +16,9 @@ Uses: `<#list>` and `_has_next`
 ### Only display an even number of items in a list
 Uses: `<#list>`, `<#assign>`, and logical operators
 * [Gist here](https://gist.github.com/jessecookedesign/67268e9bb3ab671e9fbed42c771466d3)
+
+
+---
+### Replace or remove characters in a string
+Uses: `?replace`
+* [Gist here](https://gist.github.com/jessecookedesign/beda85404fab6d68622b5c8df0543798)
