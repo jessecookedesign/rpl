@@ -14,5 +14,6 @@ Uses: `<#list>` and `_has_next`
 
 ---
 ### Only display an even number of items in a list
-Uses: `<#list>`, `<#assign>`, and logical operators
-* [Gist here](https://gist.github.com/jessecookedesign/67268e9bb3ab671e9fbed42c771466d3)
+Uses: `<#list>`, `<#assign>`, `<#if><#else></#if>` and logical operators
+* [Option 1 - Gist here](https://gist.github.com/jessecookedesign/67268e9bb3ab671e9fbed42c771466d3)
+* [Option 2 - Gist here](https://gist.github.com/jessecookedesign/8dfaff9177a568192fe0a0084ea66537)
