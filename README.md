@@ -22,6 +22,14 @@ It can also be used to do a number of things like:
 
 ---
 # Table of Contents
-- [Built-ins](https://github.com/jessecookedesign/rpl/blob/master/built-ins.md)
-- [Methods, directives, and functions](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md)
-- [Responsys errors](https://github.com/jessecookedesign/rpl/blob/master/responsys_errors.md)
+### [Built-ins](https://github.com/jessecookedesign/rpl/blob/master/built-ins.md)
+Quick reference to the built-ins available in Responsys
+
+### [Gists](https://github.com/jessecookedesign/rpl/blob/master/gists.md)
+Code snippets to solve unique problems
+
+### [Methods, directives, and functions](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md)
+Documentation on various methods, directives, and functions used in RPL
+
+### [Responsys errors](https://github.com/jessecookedesign/rpl/blob/master/responsys_errors.md)
+Common errors and possible solutions to fix them
