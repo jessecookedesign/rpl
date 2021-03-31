@@ -94,6 +94,7 @@ Anything inside the opening `<#list>` and closing `</#list>` will be repeated fo
 
 ### Adding a break in the loop
 You can break the loop with `<#break>`
+
 This can be paired with an `<#if>` statement if needed
 
 #### Example:
@@ -111,7 +112,9 @@ This can be paired with an `<#if>` statement if needed
 
 ### Check if there's another item after this iteration
 You can check if this iteration has another one after it using `_has_next`
+
 This is commonly used to style every iteration but the last, or only the last.
+
 This can be paired with an `<#if>` statement if needed
 
 #### Example:
@@ -129,6 +132,7 @@ This can be paired with an `<#if>` statement if needed
 
 ### Index of iteration
 Get the index (number) of the iteration using `_index`
+
 This can be paired with an `<#if>` statement if needed
 
 #### Example listing the index:
