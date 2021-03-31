@@ -181,10 +181,13 @@ Loop through a set of data in a table and filter selection.
 </#data>
 ```
 <br />
+
 > WHAT'S HAPPENING:
 >
 > Select PRODUCT_TABLE and name it "prod"
+> 
 > Filter/select the rows where column "name" is "jeans"
+> 
 > Grab the columns "name", "price", and "quantity"
 
 <br />
