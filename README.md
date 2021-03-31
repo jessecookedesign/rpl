@@ -33,3 +33,9 @@ Documentation on various methods, directives, and functions used in RPL
 
 ### [Responsys errors](https://github.com/jessecookedesign/rpl/blob/master/responsys_errors.md)
 Common errors and possible solutions to fix them
+
+---
+# Contribution
+Anyone with knowledge on RPL is welcome to contribute to this knowledgebase.
+
+You can create a pull request or request to become a contributer by emailing [jessecookedesign@gmail.com](mailto:jessecookedesign@gmail.com)
