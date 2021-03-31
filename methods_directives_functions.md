@@ -4,6 +4,7 @@
 - [if else](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#if-else)
 - [skip](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#skip)
 - [list](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#list)
+- [data](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#data)
 - [assign](https://github.com/jessecookedesign/rpl/blob/master/methods_directives_functions.md#assign)
 
 ---
