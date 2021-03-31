@@ -9,6 +9,7 @@
 ---
 
 # if else
+Write a set of conditions and outcomes
 #### Syntax:
 ```html
 <#if condition>
@@ -41,6 +42,7 @@ Notes:
 ---
 
 # skip
+Skip the send of an email
 #### Syntax:
 ```html
 <#skip "message">
@@ -61,7 +63,92 @@ They can also be placed in a subject line or preheader to skip an entire campaig
 ---
 
 # list
-Description here
+Loop through a set of data
+#### Syntax:
+```html
+<#list DATA as name>
+    <!-- access a data point in the list -->
+    ${name.FIELD_NAME}
+</#list>
+```
+
+#### Example:
+```html
+<#list PRODUCT_TABLE as prod>
+    ${prod.name}
+    <br>
+    ${prod.price}
+    <br>
+    ${prod.quantity}
+</#list>
+```
+
+Notes:
+
+`<#list>` must be closed.
+
+Anything inside the opening `<#list>` and closing `</#list>` will be repeated for each item in the set of data.
+
+<br />
+<br />
+
+### Adding a break in the loop
+You can break the loop with `<#break>`
+This can be paired with an `<#if>` statement if needed
+
+#### Example:
+```html
+<#list PRODUCT_TABLE as prod>
+    ${prod.name}
+    <#if prod.name = "Shoes">
+        <#break>
+    </#if>
+</#list>
+```
+
+<br />
+<br />
+
+### Check if there's another item after this iteration
+You can check if this iteration has another one after it using `_has_next`
+This is commonly used to style every iteration but the last, or only the last.
+This can be paired with an `<#if>` statement if needed
+
+#### Example:
+```html
+<#list PRODUCT_TABLE as prod>
+    ${prod.name}
+    <#if prod_has_next>
+        <hr>
+    </#if>
+</#list>
+```
+
+<br />
+<br />
+
+### Index of iteration
+Get the index (number) of the iteration using `_index`
+This can be paired with an `<#if>` statement if needed
+
+#### Example listing the index:
+```html
+<#list PRODUCT_TABLE as prod>
+    ${prod_index}. ${prod.name}
+</#list>
+```
+
+#### Example using the index with an <#if> statement:
+```html
+<#list PRODUCT_TABLE as prod>
+    <#if prod_index = 0>
+        Top seller: ${prod.name}
+    <#else>
+        ${prod.name}
+    </#if>
+</#list>
+```
+
 
 ---
 
