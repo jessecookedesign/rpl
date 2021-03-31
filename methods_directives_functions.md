@@ -31,7 +31,7 @@ Write a set of conditions and outcomes
 <#/if>
 ```
 
-Notes:
+#### Notes:
 
 `<#if>` must be closed.
 
@@ -52,7 +52,7 @@ Skip the send of an email
 <#skip "Customer didn't have rewards">
 ```
 
-Notes:
+#### Notes:
 
 `<#skip>` does not need to be closed.
 
@@ -83,7 +83,7 @@ Loop through a set of data
 </#list>
 ```
 
-Notes:
+#### Notes:
 
 `<#list>` must be closed.
 
@@ -153,6 +153,51 @@ This can be paired with an `<#if>` statement if needed
 </#list>
 ```
 
+---
+
+# data
+Loop through a set of data in a table and filter selection.
+#### Syntax:
+```html
+<#data DATA as name>
+<#filter COLUMN_NAME = something>
+<#fields FIELD_NAME ANOTHER_FIELD_NAME>
+    <!— access a data point —>
+    ${name.FIELD_NAME}
+</#data>
+```
+
+#### Example:
+```html
+<#data PRODUCT_TABLE as prod>
+<#filter name = “jeans”>
+<#fields name price quantity>
+    ${prod.name}
+    <br>
+    ${prod.price}
+    <br>
+    ${prod.quantity}
+</#data>
+```
+<br />
+> WHAT'S HAPPENING:
+>
+> Select PRODUCT_TABLE and name it "prod"
+> Filter/select the rows where column "name" is "jeans"
+> Grab the columns "name", "price", and "quantity"
+
+<br />
+
+#### Notes:
+
+`<#data>` must be closed.
+
+`<#filter>` and `<#fields>` do not need to be closed.
+
+Anything inside the opening `<#data>` and closing `</#data>` will be repeated for each item in the set of data.
+
+<br />
+<br />
 
 ---
 
